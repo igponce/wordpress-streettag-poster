@@ -69,7 +69,7 @@ for ($i = 0; $i < $f->getNumParams(); $i++) {
 }
 
 $xWebserviceOutput;
-"
+ 
 if ($oResponse->faultCode() ) {
     $xWebserviceOutput = $oResponse->faultString();
 }
